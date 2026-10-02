@@ -1,0 +1,7 @@
+# Learned locators for usecases/auth-setup. Keyed by step id.
+# Store role + accessible_name only; refs are re-resolved each run.
+"2":
+  description: App Launcher (waffle) icon in the top nav
+  role: button
+  accessible_name: "App Launcher"
+  last_verified: 2026-10-02

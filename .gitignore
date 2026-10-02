@@ -1,0 +1,24 @@
+# run artifacts, not source of truth
+results/*.json
+results/*.md
+usecases/*/results/*.json
+usecases/*/videos/
+usecases/*/screenshots/
+.playwright-cli/
+
+# local credentials — never commit
+.env
+.env.*
+!.env.example
+private.key
+*.key
+*.pem
+*.log
+
+# local tool / OS settings
+.claude/settings.local.json
+.idea/
+.DS_Store
+
+# saved browser session (contains cookies — never commit)
+auth-state/

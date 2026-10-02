@@ -1,0 +1,6 @@
+# Shared test data for use cases.
+# Usage in a use case file: {{testdata.login_as_user.name}}
+
+# login-as-user: user found via Setup search and impersonated with "Login"
+login_as_user:
+  name: "Automation Tests"

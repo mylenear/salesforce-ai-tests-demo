@@ -1,0 +1,42 @@
+# Learned locators for usecases/login-as-user. Keyed by step id.
+# Store role + accessible_name only; refs are re-resolved each run.
+"2":
+  description: Setup top search input (placeholder "Search Setup")
+  role: combobox
+  accessible_name: "Search Setup"
+  last_verified: 2026-10-02
+"3":
+  description: Setup top search input (placeholder "Search Setup")
+  role: combobox
+  accessible_name: "Search Setup"
+  last_verified: 2026-10-02
+"4":
+  description: User option in the Setup search results dropdown
+  role: option
+  accessible_name: "Automation Tests User"
+  last_verified: 2026-10-02
+"5":
+  description: li in the search dropdown containing the element titled with the user's name (selector li:has([title="<name>"]))
+  role: listitem
+  accessible_name: "Automation Tests"
+  last_verified: 2026-10-02
+"6":
+  description: User detail page heading, inside the Setup iframe
+  role: heading
+  accessible_name: "Automation Tests"
+  last_verified: 2026-10-02
+"7":
+  description: Login button on the user detail page (first match, top button row), inside the Setup iframe
+  role: button
+  accessible_name: "Login"
+  last_verified: 2026-10-02
+"8":
+  description: Log out link in the impersonation banner
+  role: link
+  accessible_name: "Log out as Automation Tests"
+  last_verified: 2026-10-02
+"10":
+  description: Log out link in the impersonation banner
+  role: link
+  accessible_name: "Log out as Automation Tests"
+  last_verified: 2026-10-02
